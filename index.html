@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text to speech</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+   <header>
+    <div>
+      <h1>Text to Speech Convetor</h1>
+      <p>this is a text to speech converter</p>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/vansh-frontend" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/vanshdhalor" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Input -->
+    <section>
+      <h2>write below  <i class="fa-solid fa-cloud-arrow-down"></i></h2>
+
+      <form>
+        <input id="t" placeholder="Enter text" />
+    <button onclick="s(t.value)"> <i class="fa-solid fa-play"></i>  Speak</button>
+
+      </form>
+
+      <!-- Output -->
+      <div class="cards"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 text to speech converter · Built by Vansh</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>

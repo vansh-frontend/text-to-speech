@@ -1,0 +1,1 @@
+const s = t => speechSynthesis.speak(new SpeechSynthesisUtterance(t))
